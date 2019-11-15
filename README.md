@@ -11,12 +11,12 @@ Download: https://github.com/dwyl/english-words/blob/master/words.zip
 
 # My Solution
 * Sort all letters of each word in the dictionary alphabetically such that the word "hello" becomes "ehllo"
-** Dictionary words may be presorted and saved to reduce future run times
+* Dictionary words may be presorted and saved to reduce future run times
 * Sort the given letters alphabetically
 * create a regex string from the given letter in the form: /^arr[0]?arr[1]?arr[k]?$/
-** k = number of given letters
-** arr = array of the given letters in alphabetically order
-** This regex anchors to the start of a string and makes all given characters optional
-** Since all strings tested are pre sorted alphabetically, ordering may be enforced in the regex without losing matches
-** bind to the end for a length limit
+* k = number of given letters
+* arr = array of the given letters in alphabetically order
+* This regex anchors to the start of a string and makes all given characters optional
+* Since all strings tested are pre sorted alphabetically, ordering may be enforced in the regex without losing matches
+* bind to the end for a length limit
 * Match against all words in the dictionary and return a list of matches
